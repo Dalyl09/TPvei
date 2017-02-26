@@ -93,7 +93,7 @@ background-position: center;
 	font-family: 'Supermercado One', cursive;
 }
 .img {
-border-radius: 50%;
+border-radius: 40%;
   width: 230px;
   position: relative;
   display: block;
@@ -107,5 +107,5 @@ border-radius: 50%;
 }
 @keyframes cos {
   0% {top: 0px}
-  100% {top: 150px}
+  100% {top: 70px}
 }
