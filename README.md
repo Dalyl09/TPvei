@@ -7,3 +7,4 @@ Mes sources : http://blog.pillowknights.com/test-du-reveil-olfactif-sensorwake/
 	      Pour mon animation texte : https://developer.mozilla.org/fr/docs/Web/CSS/animation-direction
 	      Pour mon degrader background : http://dabblet.com/
 	      Pour mon font je l'ai pris sur : https://fonts.google.com/
+              Pour mon fav icon https://openclassrooms.com/courses/un-favicon-pour-votre-site
