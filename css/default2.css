@@ -109,3 +109,12 @@ border-radius: 40%;
   0% {top: 0px}
   100% {top: 70px}
 }
+.presentat ul {
+	list-style-type: square;
+	font-family: 'Supermercado One', cursive;
+	color: #f44336;
+}
+.presentat p {
+	font-size: 30px;
+	color:#3F465A;
+}
