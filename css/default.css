@@ -1,0 +1,200 @@
+html, body, div, span, applet, object, iframe,
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+
+a, abbr, acronym, address, big, cite, code,
+
+del, dfn, em, img, ins, kbd, q, s, samp,
+
+small, strike, strong, sub, sup, tt, var,
+
+b, u, i, center,
+
+dl, dt, dd, ol, ul, li,
+
+fieldset, form, label, legend,
+
+table, caption, tbody, tfoot, thead, tr, th, td,
+
+article, aside, canvas, details, embed, 
+
+figure, figcaption, footer, header, hgroup, 
+
+menu, nav, output, ruby, section, summary,
+
+time, mark, audio, video {
+
+	margin: 0;
+
+	padding: 0;
+
+	border: 0;
+
+	font-size: 100%;
+
+	font: inherit;
+
+	vertical-align: baseline;
+
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+
+footer, header, hgroup, menu, nav, section {
+
+	display: block;
+
+}
+
+body {
+
+	line-height: 1;
+	    padding-top: 50px;
+
+}
+
+ol, ul {
+
+	list-style: none;
+
+}
+
+blockquote, q {
+
+	quotes: none;
+
+}
+
+blockquote:before, blockquote:after,
+
+q:before, q:after {
+
+	content: '';
+
+	content: none;
+
+}
+
+table {
+
+	border-collapse: collapse;
+
+	border-spacing: 0;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Supermercado+One');
+.navbar-default {
+	background-color: #3f465a;
+	border:none;
+}
+.navbar-default .navbar-brand{
+	color:#ffffff;	
+}
+.navbar-default .navbar-nav > li > a {
+	color:#ffffff;
+	font-family: inherit;
+}
+
+.jumbotron {
+	  margin:0;
+  	padding:0;
+	 background-image: linear-gradient(135deg, #fe8f2d, #fd6370, #ca6ac1, #5f58cf);
+
+	  /* 135deg, #fe8f2d, #fd6370, #ca6ac1, #5f58cf) */
+	  /* -webkit-filter: grayscale(100%); 
+	   -webkit-filter: grayscale(50%);*/  /* pour anciens Chrome et Safari */
+	height: 93.5vh;
+	text-align: center;
+}
+.jumbotron h1{
+	color: #5e5e5e;
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right: 3px;
+}
+
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: #e3679a;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #e3679a;
+    background-color: transparent;
+}
+
+
+/* 
+.container p {
+  
+   animation: cos 2s infinite linear alternate ;
+}
+
+@keyframes cos {
+  0% {transform: rotate(-45deg); left: -50px
+  100% {transform: rotate(45deg); left: 50px;
+}
+.container p {
+	animation: initial;
+}
+*/
+.idee {
+	width: 100%;
+	height: 400px;
+padding: 96px;
+background-position: center;
+}
+.idee p {
+	color:black;
+	font-family: 'Supermercado One', cursive;
+  animation-duration: 4s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.idee {
+	border:2px solid #3F465A;
+	border-style: double;
+}
+.idee {
+	background-image: url("../pict/idee.png");
+	background-size: cover;
+}
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80%;
+}
